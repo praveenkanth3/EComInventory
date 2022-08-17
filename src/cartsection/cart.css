@@ -1,0 +1,35 @@
+.cartdiv{
+    margin: 5px;
+    width: 860px;
+    height:380px;
+    background-color:rgb(237, 191, 191);
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+}
+#carttable td, #carttable th {
+    border: 1px solid rgb(118, 113, 113);
+    padding: 8px;
+  }
+#carttable th {
+    padding: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    width: 250px;
+  }
+  #cartdeletebtn{
+    color: red;
+    cursor: pointer;
+  }
+  #dropbtn{
+    float: right;
+    font-size: 30px;
+    color:rgb(222, 21, 21);
+  }
+  .cartdiv > h1{
+    margin-top: 0;
+  }
+  #navdiv{
+    width: 40px;
+    display: inline;
+  }

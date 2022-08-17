@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+}
+.product{
+    width: 42%;
+    height: 750px; 
+    display: flex;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
+    overflow-y: scroll;
+
+}
